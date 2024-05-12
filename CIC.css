@@ -1,0 +1,54 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: azure;
+}
+h1{
+    color: black;
+    font-size: 2em;
+    text-align: center;
+}
+form{
+    background-color: rgb(217, 228, 228);
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+label{
+    font-size: 1.4em;
+    font-weight: 150;
+}
+input{
+    width: 50%;
+    text-align: center;
+    font-size: 1.4em;
+    border: 2px solid rgb(188, 187, 187);
+    border-radius: 5px;
+    margin-top: 2.5px;
+    margin-bottom: 5px;
+}
+button{
+    background-color: greenyellow;
+    color: black;
+    font-size: 1.1em;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-color: greenyellow;
+}
+button:hover{
+    background-color: rgb(72, 120, 0);
+    cursor:pointer;
+}
+#total{
+    font-size: 2em;
+}
+#total-amount{
+    color: #294400;
+    font-weight: bold;
+    text-shadow:black;
+}
