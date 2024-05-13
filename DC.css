@@ -1,0 +1,22 @@
+body {
+    background-image: url(dino.jpg);
+    background-repeat: no-repeat; /* Ensure the background image is not repeated */
+    background-size: cover; /* Cover the entire background */
+    margin: 0;
+}
+#clock-container {
+    display: flex;
+    justify-content: flex-start; /* Align content to the start of the main axis (horizontally) */
+    align-items: flex-start; /* Align content to the start of the cross axis (vertically) */
+    height:cc 100vh;
+    padding: 20px; /* Add padding to provide space around the clock */
+}
+#clock {
+    font-family: monospace;
+    font-size: 6.5vw; /* Use vw (viewport width) unit for font size */
+    font-weight: bold;
+    text-align: left; /* Align text to the left */
+    background-color: rgba(255, 255, 255, 0.2); /* White color with 50% transparency */
+    border-radius: 10px;
+    padding: 5px 5px;
+}
