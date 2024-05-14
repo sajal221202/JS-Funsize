@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(245, 110, 255)
+}
+#myh1{
+    font-size: 5rem;
+    font-family: monospace;
+    color:  aliceblue;
+    font-weight: bold;    
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid;
+    border-radius: 50px;
+    padding: 40px;
+    background-color: aliceblue;
+}
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 2px;
+    margin-bottom: 30px;
+}
+#controls button{
+    font-size: 2rem;
+    font-weight:bold;
+    padding: 10px 10px;
+    margin: 5px;
+    min-width: 125px;
+    border-radius:10px;
+    cursor: pointer;
+    color: black;
+    transition:background-color 0.5s ease;
+}
+#startBTN{
+    background-color: rgb(153, 255, 0);
+}
+#startBTN:hover{
+    background-color: rgb(106, 175, 3);
+}
+#stopBTN{
+    background-color: rgb(255, 0, 0);
+}
+#stopBTN:hover{
+    background-color: rgb(165, 4, 4);
+}
+#resetBTN{
+    background-color: rgb(1, 179, 255);
+}
+#resetBTN:hover{
+    background-color:  rgb(1, 134, 192);
+}
